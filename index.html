@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header (shared across pages) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">MySite</div>
+
+      <!-- simple nav (becomes hamburger on small screens) -->
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I’m Whitney</h1>
+        <p>Student web developer. I build simple, responsive pages using HTML, CSS, and JavaScript.</p>
+        <a class="btn" href="about.html">Learn more</a>
+      </div>
+    </section>
+
+    <!-- Projects (grid using CSS Grid) -->
+    <section class="projects container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Short description of project one.</p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description of project two.</p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Short description of project three.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (shared) -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 MySite</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
